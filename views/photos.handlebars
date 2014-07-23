@@ -1,0 +1,18 @@
+{{#if photos}}
+<div class="pure-g">
+  {{#each photos}}
+    <div class="photo-box u-1 u-med-1-3 u-lrg-1-4">
+        <a href="/photo/{{id}}">
+            <img title="{{title}}" src="http://farm{{farm}}.static.flickr.com/{{server}}/{{id}}_{{secret}}_z.jpg"
+                     alt="Thumbnail of a photo with title: {{title}}" />
+        </a>
+
+        <aside class="photo-box-caption">
+            <span>{{title}}</span>
+        </aside>
+    </div>
+  {{/each}}
+</div>
+{{else}}
+<h3>no photos meh!</h3>
+{{/if}}

@@ -1,0 +1,10 @@
+{
+    "name": "exercise-4-express",
+    "private": true,
+    "main": "server.js",
+    "dependencies": {
+        "express": "^4.6.1",
+        "request": "^2.37.0",
+        "express3-handlebars": "^0.5.0"
+    }
+}
